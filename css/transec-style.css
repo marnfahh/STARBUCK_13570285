@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'SukhumvitSet';
+    src: url('font/SukhumvitSet.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	background-color: #ccc;
+}
+.wrapper {
+	width: 100%;
+	padding: 10px;
+}
+.container {
+	width: 376px;
+	height: 667px;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ background-blend-mode: multiply,multiply;
+	margin: 0 auto;
+}
+.head-menubar {
+	width: 100%;
+	height: 50px;
+	background-image: linear-gradient(to top, #267c0e 0%, #57a21d 50%);
+}
+.txt-p1 {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 25px;
+	color: #fff;
+	margin: 0;
+}
+.content {
+	width: 100%;
+	height: 580px;
+	margin: 10px auto;
+	/*background-color: red;*/
+}
+.icon-head {
+	color: #fff;
+	margin: 10px 5px 0;
+	float: left;
+}
+.count-drink {
+	width: 318px; 
+	height: 120px;
+	margin: 5px;
+	margin-left: 30px;
+	float: left;
+}
+.card-box {
+	margin: 10px 5px 0;
+	float: left;
+}
+.box-cards-img {
+	width: 50%;
+}
+.txt-num {
+	float: right;
+	margin-right: 40px;
+	color: #6cb23f;
+}
+.txt-money {
+	position: absolute;
+	top: 90px;
+	left: 665px;
+	font-size: 30px;
+	color: #fff;
+}
+.txt-de {
+	color: #6cb23f;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 0px;
+}
+.box-tran {
+	width: 360px;
+	height: 430px;
+	background-color: #fff;
+	float: left;
+	border-radius: 5px;
+	margin-left: 8px;
+}
+.txt-date {
+	margin: 10px 60px 5px 20px;
+	color: #ccc;
+	float: left;
+}
+.txt-time {
+	margin: 10px 60px 5px 5px;
+	color: #ccc;
+	float: left;
+}
+.txt-amount {
+	margin: 10px 5px 5px 7px;
+	color: red;
+	float: left;
+	text-align: right;
+}
+.in {
+	color: green;
+}
+
+
